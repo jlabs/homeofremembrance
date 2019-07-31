@@ -1,0 +1,250 @@
+// colours
+
+$gold:			#FBB829;
+$slate:			#556270;
+$vanillacream:	#FCFBE3;
+
+// button colours
+$save:			#325d88;
+$close:			#f47c3c;
+$edit:			#29abe0;
+$delete:		#d9534f;
+$add:			$slate;
+$btn-txt:		#fff;
+
+//
+// !colours
+//
+
+
+
+
+//
+// default html stuff
+//
+body {
+	//background-color: $vanillacream;
+}
+a:hover, a:focus {
+	color: $slate;
+}
+//
+// !html
+//
+
+
+
+
+//
+// header
+//
+.headerSpacer {
+	height: 75px;
+}
+//
+// !header
+//
+
+
+
+
+//
+// page template
+//
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+//
+// !template
+//
+
+
+
+
+//
+// profile page
+//
+.profileImage {
+	max-height: 150px;
+	max-width: 150px;
+}
+//
+// !profile
+//
+
+
+
+
+
+.alert a, .alert .alert-link {
+	color: $slate;
+}
+
+
+
+
+//
+// nav stuff
+//
+.navbar-default {
+	background-color: $slate !important;
+	//border-bottom-color: $gold;
+	border-bottom-width: 0px;
+	//box-shadow:0px 6px 12px black;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	color: $slate;
+	background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+//
+// !nav stuff
+//
+
+
+
+
+
+//
+//drop down menu from nav
+//
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+	background-color: $slate;
+}
+.dropdown-menu {
+	background-color: #fff;
+}
+.navbar-nav>li>.dropdown-menu {
+	margin-left: -1px;
+	margin-top: -1px;
+}
+//
+// !drop down menu
+//
+
+
+
+
+//
+// buttons
+//
+.btn-default {
+	color: #fff;
+	background-color: $slate;
+}
+.btn-default:hover {
+	background-color: $slate;
+	color: #fff !important;
+}
+.btn-save,
+.btn-close,
+.btn-edit,
+.btn-delete,
+.btn-add,
+.btn-action {
+	@extend .btn;
+	@extend .btn-default;
+	color: $btn-txt;
+}
+// primary colour
+.btn-save {
+	background-color: $save !important;
+}
+// warning colour
+.btn-close {
+	background-color: $close !important;
+}
+.btn-edit {
+	background-color: $edit !important;
+}
+// danger colours
+.btn-delete {
+	background-color: $delete !important;
+}
+// add button is the same colour as info
+.btn-add {
+	background-color: $add !important;
+}
+.btn-action, .btn-action:hover {
+	color: $slate !important;
+	background-color: white;
+}
+//
+// !buttons
+//
+
+
+
+
+
+//
+//gallery stuff
+//
+.galleryPanel {
+	@extend .col-lg-2;
+	margin-bottom: 12px;
+}
+.galleryThumbnail {
+	background-size: cover;
+	height: 150px;
+	width: 150px; 
+	max-height: 150px;
+	min-height: 150px;
+	max-width: 150px;
+	max-width: 150px;
+}
+//
+// !gallery
+//
+
+
+
+
+//
+// bucketlist
+//
+.bucketListItemMenu {
+	@extend .pull-right;
+}
+//
+// !bucketlist
+//
+
+
+
+
+//
+// modals
+//
+.modal-header {
+	background-color: $slate;
+}
+.modal-title {
+	color: white;
+}
+//
+// !modals
+//
+
+
+
+
+//
+// progress bar
+//
+.progress {
+	margin-left: 5%;
+	margin-right: 5%;
+}
